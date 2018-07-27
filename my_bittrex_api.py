@@ -24,7 +24,7 @@ def get_market_data():
         bid_data = data['result']['Ask']
         last_data = data['result']['Last']
         print(market)
-        print('ASK:' 8f(ask_data)
+        print(f'ASK: {ask_data}')
         print(f'BID: {bid_data}')
         print(f'LAST: {last_data}')
         get_market_data()
